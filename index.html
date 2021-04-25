@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<header>
+		<div class="my-container space-beetween">
+			<div class="top-part">
+				<div class="logo">
+					<a href="">
+						<img src="img/LOGO.png" alt="">
+					</a>
+				</div>
+				<nav>
+				  	<ul>
+					    <li><a href="#">Staff List</a></li> 
+					  	<li><a href="#">Vacation</a></li> 
+					  	<li class="active"><a href="#">Calendar</a></li> 
+					    
+				  	</ul>
+				 
+				</nav>
+
+				<div class="user-profile">
+					<div class="avatar">
+						<img src="img/avatar.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="search-and-language space-beetween">
+				<div class="search">
+					<form action="">
+						<input type="text" placeholder="Search ...">
+					</form>
+				</div>
+				<div class="language">
+					<div class="selected">
+						<img src="img/globe.png" alt="">
+						<p>
+							<span>English</span>
+							<img src="img/chevronBottom.png" alt="">
+						</p>
+					</div>
+					<div class="hidden">
+						<ul>
+							<li>English</li>
+							<li>Russian</li>
+							<li>Armenian</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="my-container">
+			<div class="filters">
+				<div class="selectOption  ">
+		            <div class="content">
+		                <p class="selected">
+		                    <span>Marketing</span>
+		                    <span class="icon">
+		                    	<img src="img/chevronBO.png" alt=""> 
+		                	</span>
+		                </p>
+		                <div class="hidden">
+		                    <div>
+		                        <div class="item">
+		                            <label for="item1">USD</label>
+		                            <input name="valute"   type="radio" value="1" id="item1" hidden="">
+		                        </div>
+		                        <div class="item">
+		                            <label for="item2">USD</label>
+		                            <input name="valute"   type="radio" value="2" id="item2" hidden="">
+		                        </div>
+		                        <div class="item">
+		                            <label for="item3">USD</label>
+		                            <input name="valute"   type="radio" value="3" id="item3" hidden="">
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		        <label class="switch">
+				  <input type="checkbox">
+				  <span class="slider"></span>
+				</label>
+				<div class="add-user">
+					<img src="img/user-plus1.svg" alt="">
+				</div>
+			</div>
+			<div class="scrollable">
+				<div>
+					<div class="items">
+						<div class="item">
+							<p class="profession">Managment</p>
+							<div class="image" style="background-image: url(img/oval3.png);"></div>
+							<div class="edit">
+								<button class="edit-button">
+									<img src="img/pencil-simple1.png" alt="">
+								</button>
+								<div class="edit-menu">
+									<ul>
+										<li>
+											<p>Edit</p>
+										</li>
+										<li>
+											<p>Delete</p>
+											<div class="confirm">
+												<p class="text">Delete ?</p>
+												<div class="yes-no">
+													<button>Yes</button>
+													<button>No</button>
+												</div>
+											</div>
+										</li>
+										<li>
+											<p>Archive</p>
+											<div class="confirm">
+												<p class="text">Archive ?</p>
+												<div class="yes-no">
+													<button>Yes</button>
+													<button>No</button>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<p class="name">Jenny Wilson</p>
+							<p class="position">Hr Manager</p>
+							<p class="phone">077-777-777</p>
+							<button class="add-friend">
+								<img src="img/user.png" alt="">
+								<img class="added" src="img/usergray.png" alt="">
+							</button>
+						</div>
+						<div class="item disabled">
+							<p class="profession">Marketing </p>
+							<div class="image" style="background-image: url(img/oval.png);"></div>
+							<div class="edit">
+								<button class="edit-button">
+									<img src="img/pencil-simple1.png" alt="">
+								</button>
+								<div class="edit-menu">
+									<ul>
+										<li>
+											<p>Edit</p>
+										</li>
+										<li>
+											<p>Delete</p>
+											<div class="confirm">
+												<p class="text">Delete ?</p>
+												<div class="yes-no">
+													<button>Yes</button>
+													<button>No</button>
+												</div>
+											</div>
+										</li>
+										<li>
+											<p class="text">Archive </p>
+											 
+										</li>
+									</ul>
+								</div>
+							</div>
+							<p class="name">Marvin McKinney</p>
+							<p class="position">Marketing Specialist</p>
+							<p class="phone">077-777-777</p>
+							<button class="add-friend">
+								<img src="img/user.png" alt="">
+								<img class="added" src="img/usergray.png" alt="">
+							</button>
+						</div>
+						<div class="item">
+							<p class="profession">Development</p>
+							<div class="image" style="background-image: url(img/oval4.png);"></div>
+							<div class="edit">
+								<button class="edit-button">
+									<img src="img/pencil-simple1.png" alt="">
+								</button>
+								<div class="edit-menu">
+									<ul>
+										<li>
+											<p>Edit</p>
+										</li>
+										<li>
+											<p>Delete</p>
+											<div class="confirm">
+												<p class="text">Delete ?</p>
+												<div class="yes-no">
+													<button>Yes</button>
+													<button>No</button>
+												</div>
+											</div>
+										</li>
+										<li>
+											<p class="text">Archive </p>
+											 
+										</li>
+									</ul>
+								</div>
+							</div>
+							<p class="name">Cameron Williamson</p>
+							<p class="position">React JS Developer</p>
+							<p class="phone">077-777-777</p>
+							<button class="add-friend">
+								<img src="img/user.png" alt="">
+								<img class="added" src="img/usergray.png" alt="">
+							</button>
+						</div>
+						<div class="item">
+							<p class="profession">Development</p>
+							<div class="image" style="background-image: url(img/oval2.png);"></div>
+							<div class="edit">
+								<button class="edit-button">
+									<img src="img/pencil-simple1.png" alt="">
+								</button>
+								<div class="edit-menu">
+									<ul>
+										<li>
+											<p>Edit</p>
+										</li>
+										<li>
+											<p>Delete</p>
+											<div class="confirm">
+												<p class="text">Delete ?</p>
+												<div class="yes-no">
+													<button>Yes</button>
+													<button>No</button>
+												</div>
+											</div>
+										</li>
+										<li>
+											<p class="text">Archive </p>
+											 
+										</li>
+									</ul>
+								</div>
+							</div>
+							<p class="name">Ronald Richards</p>
+							<p class="position">Hr Manager</p>
+							<p class="phone">QA</p>
+							<button class="add-friend">
+								<img src="img/user.png" alt="">
+								<img class="added" src="img/usergray.png" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="data-table">
+						<div class="table">
+							<div class="head">
+								<div>DATA </div>
+								<div>Mo</div>
+								<div>Tu</div>
+								<div>We</div>
+								<div>Th</div>
+								<div>Fr</div>
+								<div >Sa</div>
+								<div class="satSun">Su</div>
+								<div>Mo</div>
+								<div>Tu</div>
+								<div>We</div>
+								<div>Th</div>
+								<div>Fr</div>
+								<div>Sa</div>
+								<div class="satSun">Su</div>
+								<div>Mo</div>
+								<div>Tu</div>
+								<div>We</div>
+								<div>Th</div>
+								<div>Fr</div>
+								<div>Sa</div>
+								<div class="satSun">Su</div>
+								<div>Mo</div>
+								<div>Tu</div>
+								<div>We</div>
+								<div>Th</div>
+								<div>Fr</div>
+								<div >Sa</div>
+								<div class="satSun">Su</div>
+								<div>Mo</div>
+								<div>Tu</div>
+								<div>We</div>
+							</div>
+							<div class="tbody">
+								<div class="tr">
+									<div>
+										<div>
+											<div class="image" style="background-image: url('img/ddd.png');"></div>
+											<p class="name">Company Name</p>
+										</div>
+									 </div>
+									<div><p>1</p></div>
+									<div class="active"><p>2</p></div>
+									<div><p>3</p></div>
+									<div><p>4</p></div>
+									<div><p>5</p></div>
+									<div><p>6</p></div>
+									<div class="satSun"><p>7</p></div>
+									<div><p>8</p></div>
+									<div><p>9</p></div>
+									<div><p>10</p></div>
+									<div><p>11</p></div>
+									<div><p>12</p></div>
+									<div ><p>13</p></div>
+									<div class="satSun"><p>14</p></div>
+									<div><p>15</p></div>
+									<div><p>16</p></div>
+									<div><p>17</p></div>
+									<div><p>18</p></div>
+									<div><p>19</p></div>
+									<div ><p>20</p></div>
+									<div class="satSun"><p>21</p></div>
+									<div><p>22</p></div>
+									<div><p>23</p></div>
+									<div><p>24</p></div>
+									<div><p>25</p></div>
+									<div><p>26</p></div>
+									<div ><p>27</p></div>
+									<div class="satSun"><p>28</p></div>
+									<div><p>29</p></div>
+									<div><p>30</p></div>
+									<div><p>31</p></div>
+								</div>
+								<div class="tr">
+									<div>
+										<div>
+											<div class="image" style="background-image: url('img/daasda.png');"></div>
+											<p class="name">Company Name</p>
+										</div>
+									 </div>
+									<div><p>1</p></div>
+									<div><p>2</p></div>
+									<div><p>3</p></div>
+									<div><p>4</p></div>
+									<div><p>5</p></div>
+									<div ><p>6</p></div>
+									<div class="satSun"><p>7</p></div>
+									<div><p>8</p></div>
+									<div><p>9</p></div>
+									<div><p>10</p></div>
+									<div><p>11</p></div>
+									<div><p>12</p></div>
+									<div><p>13</p></div>
+									<div class="satSun"><p>14</p></div>
+									<div><p>15</p></div>
+									<div><p>16</p></div>
+									<div><p>17</p></div>
+									<div><p>18</p></div>
+									<div><p>19</p></div>
+									<div ><p>20</p></div>
+									<div class="satSun"><p>21</p></div>
+									<div><p>22</p></div>
+									<div class="partial-active">
+										<p>23</p>
+										<div class="hidden">
+											<div class="content">
+												<div class="non-workings">
+													<div class="text">
+														<img src="img/nonWorkingdayIcon.png" alt="">
+														<p>Non-working day</p>
+													</div>
+													<button class="change">
+														<img src="img/pencil-simple.png" alt="">
+													</button>
+												</div>
+												<div class="team-building">
+													<div class="text">
+														<img src="img/team.png" alt="">
+														<p>Team building</p>
+													</div>
+													<button class="change">
+														<img src="img/pencil-simple.png" alt="">
+													</button>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<div><p>24</p></div>
+									<div><p>25</p></div>
+									<div><p>26</p></div>
+									<div ><p>27</p></div>
+									<div class="satSun"><p>28</p></div>
+									<div><p>29</p></div>
+									<div><p>30</p></div>
+									<div><p>31</p></div>
+								</div>
+							</div>
+						</div>
+					 
+					</div>
+				</div>
+			</div>
+			<div class="progress">
+			  	<div class="progress-value"></div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
